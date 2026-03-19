@@ -23,7 +23,7 @@ function validarAcceso() {
         if (restantes > 0) {
             alert(`Datos incorrectos. Te quedan ${restantes} intentos.`);
         } else {
-            alert("Usuario bloqueado. Ha superado el número de intentos.");
+            alert("Usuario bloqueado. superaste el numero de intentos.");
         }
     }
 }
